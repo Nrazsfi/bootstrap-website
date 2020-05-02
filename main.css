@@ -1,0 +1,28 @@
+.cover {
+  background-image: url('assets/20191210_130113.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border:0.2rem solid black;
+  display: table;
+  height: 100vh;
+  width: 100vw;
+}
+
+.hero-text-wrapper {
+  display: table-cell;
+  color:brown;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.hero-text {
+  margin: 0 auto;
+  padding: .625rem;
+  color: hsla(0,0%,100%,1.9);
+  background: hsla(100,0%,0%,.7);
+}
+
+.enter a {
+  color:red;
+  text-decoration: none;
+}

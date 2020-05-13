@@ -10,10 +10,11 @@
 
 .hero-text-wrapper {
   display: table-cell;
-  color:brown;
+  color:black;
   text-align: center;
   vertical-align: middle;
 }
+
 
 .hero-text {
   margin: 0 auto;
@@ -22,7 +23,38 @@
   background: hsla(100,0%,0%,.7);
 }
 
+@media(min-width: 720px) {
+    .hero-text {
+        background: none;
+        color: black;
+        margin-bottom: 20vh; 
+    }
+}
+
+@media(min-width:720px) {
+    .hero-text h1 {
+        color:red;
+    }
+}
+
+@media(min-width:720px) {
+    .hero-text span a {
+        color:black;   
+    }
+}
+
+@media(min-width:720px) {
+    .hero-text span a:hover {
+        color:red;
+        text-decoration: underline;
+    }
+}
+
 .enter a {
   color:red;
   text-decoration: none;
+}
+
+.enter a:hover {
+    text-decoration: underline;
 }

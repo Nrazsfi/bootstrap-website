@@ -4,11 +4,45 @@ body header ul li a{
     text-decoration: none;
 }
 
+body {
+    background-color: ghostwhite;
+}
+
+a {
+    border: 1px, solid, red;
+}
+
 a:hover {
-    color:white;
+    color:ghostwhite;
     background:black;
     border: solid 2px red;
     text-decoration: none;
     font-size: 2rem;
     transition: 3s;
+}
+
+header {
+    margin:2rem;
+    position: sticky;
+}
+
+.containercontainer-fluid {
+    margin: 2rem;  
+}
+
+.jumbotron {
+    background-color: black;
+    color:ghostwhite;
+    opacity: 85%;
+}
+
+h1,p {
+    margin-left:1.1rem;
+    margin-right: 1.1rem;
+    text-align: justify;
+}
+
+h1 {
+    color: red;
+    opacity:90%;
 }

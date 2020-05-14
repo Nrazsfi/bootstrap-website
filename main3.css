@@ -1,0 +1,39 @@
+body header ul li a{
+    padding: .3rem;
+    color:red;
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+}
+
+a {
+    border: 1px, solid, red;
+}
+
+a:hover {
+    color:ghostwhite;
+    background:black;
+    border: solid 2px red;
+    text-decoration: none;
+    font-size: 2rem;
+    transition: 3s;
+}
+
+header {
+    margin:2rem;
+}
+
+div {
+    text-align: center;
+}
+
+img {
+   text-align:auto;
+   margin-bottom:1.4rem;
+   margin-left:1.4rem;
+   margin-right:1.4rem;
+   max-width:85vw;
+   max-height:95vh;
+}

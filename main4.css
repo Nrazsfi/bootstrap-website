@@ -1,0 +1,44 @@
+body header ul li a{
+    padding: .3rem;
+    color:white;
+    text-decoration: none;
+}
+
+body {
+    background-color: red;
+}
+
+a {
+    border: 1px, solid, black;
+}
+
+a:hover {
+    color:red;
+    background:white;
+    border: solid 2px black;
+    text-decoration: none;
+    font-size: 2rem;
+    transition: 3s;
+}
+
+header {
+    margin:2rem;
+}
+
+div {
+    text-align: center;
+}
+
+.table {
+    background-color: white;
+    max-width:80vw;
+    max-height:90vh;
+}
+
+th {
+    text-align: center;
+}
+
+td {
+    text-align: left;
+}
